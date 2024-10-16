@@ -13,21 +13,26 @@ import { Icon } from "astro-icon/components";
 
             <div class="items-center mt-8 xl:mt-0 xl:flex xl:justify-end xl:space-x-8">
                 <ul class="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 xl:justify-end">
-                    <li>
-                        <a href="mailto:guillaume-ripoche@laposte.net" title="contact" class="text-sm transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">
-                            Me contacter
-                        </a>
-                    </li>
-                    
+                    Me contacter
                 </ul>
-
+                
                 <div class="w-full h-px mt-8 mb-5 xl:w-px xl:m-0 xl:h-6 bg-border"></div>
-
+                
                 <ul class="flex items-center justify-center space-x-8 xl:justify-end">
                     <li>
+                        <a href="mailto:guillaume-ripoche@laposte.net" title="contact mail" class="text-sm transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">
+                            <img src="/Mail.svg" alt="mail icon" style="width: 24px; height: 24px;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/33612345678" title="contact whatsapp" class="text-sm transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">
+                            <img src="/Whatsapp.svg" alt="WhatsApp" style="width: 24px; height: 24px;">
+                        </a>
+                    </li>
+                    <li>
                         <a href="https://github.com/RipocheGuillaume" title="Github" target="_blank" rel="noopener noreferrer"
-                           class="block transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">
-                            <Icon name="Github" />
+                        class="block transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">
+                        <Icon name="Github" />
                         </a>
                     </li>
                     <!--
