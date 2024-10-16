@@ -6,7 +6,7 @@ import Layout from '../../layouts/Layout.astro';
 import BlogList from '../../components/BlogList.astro';
 import Pagination from '../../components/Pagination.astro';
 
-export async function getStaticPaths({ paginate }) {
+export async function getStaticPaths({ paginate }: { paginate: any }) {
     const blogs = await getCollection("blogs");
 
     return paginate(blogs, {
