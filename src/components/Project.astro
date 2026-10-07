@@ -3,7 +3,7 @@ const { imageUrl, title, type, link } = Astro.props;
 ---
 
 <a href={link} target="_blank" rel="noopener noreferrer">
-    <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-64 group"
+    <div class="overflow-hidden bg-contain bg-center bg-no-repeat rounded-lg cursor-pointer h-64 group"
         style={`background-image:url('${imageUrl}')`}>
         <div
             class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700
