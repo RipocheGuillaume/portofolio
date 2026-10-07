@@ -2,6 +2,9 @@
   "name": "monporto",
   "type": "module",
   "version": "1.0.2",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
